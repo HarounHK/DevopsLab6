@@ -1,0 +1,14 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout clone repository
+      uses: actions/checkout@v2
+
+    - name: Run Build
+      run: make
