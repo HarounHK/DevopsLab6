@@ -2,7 +2,7 @@
 
 int main()
 {
-    printf("Hello World, Build Test");
+    printf("Hello World, Last Commit test");
 
     return 0;
 }
